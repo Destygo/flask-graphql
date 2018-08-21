@@ -1,16 +1,15 @@
 from flask import Flask
-from flask_graphql import GraphQLView
-from .schema import Schema
-from graphql import GraphQLCachedBackend
-# from quiver.backend import GraphQLQuiverBackend
+from custom_flask_graphql import GraphQLView
+from schema import schema
+from json_cleaning import JSonCleaning
 
 
 def create_app(path='/graphql', **kwargs):
-    # backend = GraphQLCachedBackend(GraphQLQuiverBackend({"async_framework": "PROMISE"}))
     backend = None
-    app = Flask(__name__)
+    app = Flask(__name__, static_url_path='/static')
     app.debug = True
-    app.add_url_rule(path, view_func=GraphQLView.as_view('graphql', schema=Schema, backend=backend, **kwargs))
+    app.add_url_rule(path, view_func=GraphQLView.as_view('graphql', schema=schema, backend=backend, context=JSonCleaning.key_map, **kwargs))
+    print('Add URL rule: succeeded')
     return app
 
 

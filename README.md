@@ -9,7 +9,7 @@ Adds GraphQL support to your Flask application.
 Just use the `GraphQLView` view from `flask_graphql`
 
 ```python
-from flask_graphql import GraphQLView
+from custom_flask_graphql import GraphQLView
 
 app.add_url_rule('/graphql', view_func=GraphQLView.as_view('graphql', schema=schema, graphiql=True))
 

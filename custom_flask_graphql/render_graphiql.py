@@ -22,11 +22,11 @@ add "&raw" to the end of the URL within a browser.
     }
   </style>
   <meta name="referrer" content="no-referrer">
-  <link href="//cdn.jsdelivr.net/npm/graphiql@{{graphiql_version}}/graphiql.css" rel="stylesheet" />
+  <link href="{{ url_for("static", filename="graphiql.css") }}" rel="stylesheet" />
   <script src="//cdn.jsdelivr.net/fetch/0.9.0/fetch.min.js"></script>
   <script src="//cdn.jsdelivr.net/react/15.0.0/react.min.js"></script>
   <script src="//cdn.jsdelivr.net/react/15.0.0/react-dom.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/graphiql@{{graphiql_version}}/graphiql.min.js"></script>
+  <script src="{{ url_for("static", filename="graphiql.js") }}"></script>
 </head>
 <body>
   <script>
@@ -61,7 +61,8 @@ add "&raw" to the end of the URL within a browser.
         otherParams[k] = parameters[k];
       }
     }
-    var fetchURL = locationQuery(otherParams);
+    // var fetchURL = locationQuery(otherParams);
+    var fetchURL = "{{ url_for('graphql') }}";
 
     // Defines a GraphQL fetcher using the fetch API.
     function graphQLFetcher(graphQLParams) {
@@ -116,6 +117,7 @@ add "&raw" to the end of the URL within a browser.
         response: {{ result|tojson }},
         variables: {{ params.variables|tojson }},
         operationName: {{ params.operation_name|tojson }},
+        mapping: {{ params.mapping|tojson}}
       }),
       document.body
     );

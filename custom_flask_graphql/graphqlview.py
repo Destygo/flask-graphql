@@ -1,3 +1,4 @@
+from collections import namedtuple
 from functools import partial
 
 from flask import Response, request
@@ -20,9 +21,10 @@ class GraphQLView(View):
     backend = None
     graphiql_version = None
     graphiql_template = None
-    graphiql_html_title = None
+    graphiql_html_title = 'Flask - GraphQL'
     middleware = None
     batch = False
+    context = None
 
     methods = ['GET', 'POST', 'PUT', 'DELETE']
 
@@ -31,7 +33,7 @@ class GraphQLView(View):
         for key, value in kwargs.items():
             if hasattr(self, key):
                 setattr(self, key, value)
-
+        print('GraphQLView initialization')
         assert isinstance(self.schema, GraphQLSchema), 'A Schema is required to be provided to GraphQLView.'
 
     # noinspection PyUnusedLocal
@@ -101,9 +103,12 @@ class GraphQLView(View):
                 encode=partial(self.encode, pretty=pretty)
             )
 
+            new_params_tuple = namedtuple('GraphQLParams', all_params[0]._fields + ('mapping',))
+            new_params = new_params_tuple(*all_params[0], self.context)
+
             if show_graphiql:
                 return self.render_graphiql(
-                    params=all_params[0],
+                    params= new_params, # all_params[0],
                     result=result
                 )
 

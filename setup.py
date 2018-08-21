@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 required_packages = ["graphql-core>=2.1", "flask>=0.7.0", "graphql-server-core>=1.1"]
 
 setup(
-    name="Flask-GraphQL",
+    name="Custom-Flask-GraphQL",
     version="2.0.0",
     description="Adds GraphQL support to your Flask application",
     long_description=open("README.rst").read(),

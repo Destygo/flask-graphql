@@ -19,7 +19,7 @@ cache:
 install:
 - pip install tox coveralls
 script:
-- tox -e $TOX_ENV -- --cov=flask_graphql
+- tox -e $TOX_ENV -- --cov=custom_flask_graphql
 after_success:
 - coveralls
 deploy:

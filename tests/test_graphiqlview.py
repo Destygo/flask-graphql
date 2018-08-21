@@ -13,9 +13,11 @@ def test_graphiql_is_enabled(client):
     response = client.get(url_for('graphql'), headers={'Accept': 'text/html'})
     assert response.status_code == 200
 
+def test_graphiql_static_files_exposed(client):
+    response = client.get(url_for("static", filename="graphiql.min.js"))
 
 def test_graphiql_renders_pretty(client):
-    response = client.get(url_for('graphql', query='{test}'), headers={'Accept': 'text/html'})
+    response = client.get(url_for('static', query='{test}'), headers={'Accept': 'text/html'})
     assert response.status_code == 200
     pretty_response = (
         '{\n'

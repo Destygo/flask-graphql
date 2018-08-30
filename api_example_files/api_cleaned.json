@@ -1,0 +1,78 @@
+[
+  [
+    "00 - ADL_Destinations_By_Country",
+    {
+      "h30": {
+        "h636f6e746578745f6265666f72655f65787472616374696f6e73": {
+          "h6369746965735f62795f636f756e7472795b5d": "[{'h666c696768745f6475726174696f6e': '1h36min', 'h76696c6c65': 'Alger', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h36min', 'h76696c6c65': 'Annaba', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h45min', 'h76696c6c65': 'Batna', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h50min', 'h76696c6c65': 'Biskra', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h35min', 'h76696c6c65': 'Béjaïa', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h39min', 'h76696c6c65': 'Constantine', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h50min', 'h76696c6c65': 'Oran', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h40min', 'h76696c6c65': 'Sétif', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h58min', 'h76696c6c65': 'Tlemcen', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '2h55min', 'h76696c6c65': 'Agadir', 'h70617973': 'Maroc'}, {'h666c696768745f6475726174696f6e': '2h27min', 'h76696c6c65': 'Casablanca', 'h70617973': 'Maroc'}, {'h666c696768745f6475726174696f6e': '7h25min', 'h76696c6c65': 'Fès', 'h70617973': 'Maroc'}, {'h666c696768745f6475726174696f6e': '2h41min', 'h76696c6c65': 'Marrakech', 'h70617973': 'Maroc'}, {'h666c696768745f6475726174696f6e': '2h10min', 'h76696c6c65': 'Oujda', 'h70617973': 'Maroc'}, {'h666c696768745f6475726174696f6e': '2h5min', 'h76696c6c65': 'Tetouan', 'h70617973': 'Maroc'}, {'h666c696768745f6475726174696f6e': '3h20min', 'h76696c6c65': 'Arrecife', 'h70617973': 'Canaries'}, {'h666c696768745f6475726174696f6e': '3h26min', 'h76696c6c65': 'Fuerteventura', 'h70617973': 'Canaries'}, {'h666c696768745f6475726174696f6e': '3h20min', 'h76696c6c65': 'Lanzarote', 'h70617973': 'Canaries'}, {'h666c696768745f6475726174696f6e': '3h33min', 'h76696c6c65': 'Las Palmas', 'h70617973': 'Canaries'}, {'h666c696768745f6475726174696f6e': '3h37min', 'h76696c6c65': 'Ténérife', 'h70617973': 'Canaries'}, {'h666c696768745f6475726174696f6e': '5h19min', 'h76696c6c65': 'Sal', 'h70617973': 'Cap Vert'}, {'h666c696768745f6475726174696f6e': '11h06min', 'h76696c6c65': 'Saint-Denis de la Réunion', 'h70617973': 'La Réunion'}, {'h666c696768745f6475726174696f6e': '10h00', 'h76696c6c65': 'Les Seychelles', 'h70617973': 'Seychelles'}, {'h666c696768745f6475726174696f6e': '5h11min', 'h76696c6c65': 'Dakar', 'h70617973': 'Sénégal'}, {'h666c696768745f6475726174696f6e': '2h5min', 'h76696c6c65': 'Djerba', 'h70617973': 'Tunisie'}, {'h666c696768745f6475726174696f6e': '1h51min', 'h76696c6c65': 'Monastir', 'h70617973': 'Tunisie'}, {'h666c696768745f6475726174696f6e': '2h2min', 'h76696c6c65': 'Tunis', 'h70617973': 'Tunisie'}, {'h666c696768745f6475726174696f6e': '2h55min', 'h76696c6c65': 'Bodrum', 'h70617973': 'Turquie'}, {'h666c696768745f6475726174696f6e': '2h48min', 'h76696c6c65': 'Istanbul', 'h70617973': 'Turquie'}, {'h666c696768745f6475726174696f6e': '2h47min', 'h76696c6c65': 'Izmir', 'h70617973': 'Turquie'}, {'h666c696768745f6475726174696f6e': '1h50min', 'h76696c6c65': 'Berlin', 'h70617973': 'Allemagne'}, {'h666c696768745f6475726174696f6e': '1h19min', 'h76696c6c65': 'Düsseldorf', 'h70617973': 'Allemagne'}, {'h666c696768745f6475726174696f6e': '1h13min', 'h76696c6c65': 'Francfort', 'h70617973': 'Allemagne'}, {'h666c696768745f6475726174696f6e': '1h45min', 'h76696c6c65': 'Hambourg', 'h70617973': 'Allemagne'}, {'h666c696768745f6475726174696f6e': '1h14min', 'h76696c6c65': 'Munich', 'h70617973': 'Allemagne'}, {'h666c696768745f6475726174696f6e': '1h15min', 'h76696c6c65': 'Stuttgart', 'h70617973': 'Allemagne'}, {'h666c696768745f6475726174696f6e': '1h43min', 'h76696c6c65': 'Birmingham', 'h70617973': 'Royaume-Uni'}, {'h666c696768745f6475726174696f6e': '1h37min', 'h76696c6c65': 'Bristol', 'h70617973': 'Royaume-Uni'}, {'h666c696768745f6475726174696f6e': '1h29min', 'h76696c6c65': 'Londres', 'h70617973': 'Royaume-Uni'}, {'h666c696768745f6475726174696f6e': '1h35min', 'h76696c6c65': 'Manchester', 'h70617973': 'Royaume-Uni'}, {'h666c696768745f6475726174696f6e': '2h3min', 'h76696c6c65': 'Southampton', 'h70617973': 'Royaume-Uni'}, {'h666c696768745f6475726174696f6e': '1h45mi",
+          "h636f756e747279": "Russie"
+        },
+        "h696e70757473": {
+          "h636f756e747279": "Russie"
+        },
+        "h6f757470757473": {
+          "h636f756e74726965735f31345f746f5f32315b5d": {
+            "h76616c7565": "Extraction failed: either result is None or extraction JMESPath query failed",
+            "h6a696e6a61": "@ | \"countries_14_to_21[]\""
+          },
+          "h6e6174696f6e616c5f6369746965735f31345f746f5f32315b5d": {
+            "h76616c7565": "[]",
+            "h6a696e6a61": "@ | \"national_cities[]\"[?pays=='Russie'] | [14:21]"
+          },
+          "h636f756e74726965735b5d": {
+            "h76616c7565": "[{'h666c696768745f6475726174696f6e': '3h25min', 'h76696c6c65': 'Moscou', 'h70617973': 'Russie'}]",
+            "h6a696e6a61": "@ | \"national_cities[]\""
+          },
+          "h6e6174696f6e616c5f6369746965735f61626f76655f32315b5d": {
+            "h76616c7565": "[]",
+            "h6a696e6a61": "@ | \"national_cities[]\"[?pays=='Russie'] | [21:]"
+          },
+          "h636f756e74726965735f61626f76655f32315b5d": {
+            "h76616c7565": "Extraction failed: either result is None or extraction JMESPath query failed",
+            "h6a696e6a61": "@ | \"countries_above_21[]\""
+          },
+          "h636f756e74726965735f375f746f5f31345b5d": {
+            "h76616c7565": "Extraction failed: either result is None or extraction JMESPath query failed",
+            "h6a696e6a61": "@ | \"countries_7_to_14[]\""
+          },
+          "h666c696768745f6475726174696f6e": {
+            "h76616c7565": "'ville'",
+            "h6a696e6a61": "'ville'"
+          },
+          "h6e6174696f6e616c5f6369746965735b5d": {
+            "h76616c7565": "[{'h666c696768745f6475726174696f6e': '3h25min', 'h76696c6c65': 'Moscou', 'h70617973': 'Russie'}]",
+            "h6a696e6a61": "@ |\"cities_by_country[]\"[?pays=='Russie']"
+          },
+          "h6e756d6265725f6f665f64657374696e6174696f6e735b5d": {
+            "h76616c7565": "1",
+            "h6a696e6a61": "length(@ |\"national_cities[]\"[?pays=='Russie'])"
+          },
+          "h636f756e74726965735f66697273745f375b5d": {
+            "h76616c7565": "Extraction failed: either result is None or extraction JMESPath query failed",
+            "h6a696e6a61": "@ | \"national_cities_7[]\""
+          },
+          "h6e6174696f6e616c5f6369746965735f66697273745f375b5d": {
+            "h76616c7565": "[{'h666c696768745f6475726174696f6e': '3h25min', 'h76696c6c65': 'Moscou', 'h70617973': 'Russie'}]",
+            "h6a696e6a61": "@ | \"national_cities[]\"[?pays=='Russie'] | [:7]"
+          },
+          "h6e6174696f6e616c5f6369746965735f375f746f5f31345b5d": {
+            "h76616c7565": "[]",
+            "h6a696e6a61": "@ | \"national_cities[]\"[?pays=='Russie'] | [7:14]"
+          }
+        },
+        "h7469746c65": "ADL_Destinations_By_Country",
+        "h636f6e746578745f61667465725f65787472616374696f6e73": {
+          "h6369746965735f62795f636f756e7472795b5d": "[{'h666c696768745f6475726174696f6e': '1h36min', 'h76696c6c65': 'Alger', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h36min', 'h76696c6c65': 'Annaba', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h45min', 'h76696c6c65': 'Batna', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h50min', 'h76696c6c65': 'Biskra', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h35min', 'h76696c6c65': 'Béjaïa', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h39min', 'h76696c6c65': 'Constantine', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h50min', 'h76696c6c65': 'Oran', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h40min', 'h76696c6c65': 'Sétif', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '1h58min', 'h76696c6c65': 'Tlemcen', 'h70617973': 'Algérie'}, {'h666c696768745f6475726174696f6e': '2h55min', 'h76696c6c65': 'Agadir', 'h70617973': 'Maroc'}, {'h666c696768745f6475726174696f6e': '2h27min', 'h76696c6c65': 'Casablanca', 'h70617973': 'Maroc'}, {'h666c696768745f6475726174696f6e': '7h25min', 'h76696c6c65': 'Fès', 'h70617973': 'Maroc'}, {'h666c696768745f6475726174696f6e': '2h41min', 'h76696c6c65': 'Marrakech', 'h70617973': 'Maroc'}, {'h666c696768745f6475726174696f6e': '2h10min', 'h76696c6c65': 'Oujda', 'h70617973': 'Maroc'}, {'h666c696768745f6475726174696f6e': '2h5min', 'h76696c6c65': 'Tetouan', 'h70617973': 'Maroc'}, {'h666c696768745f6475726174696f6e': '3h20min', 'h76696c6c65': 'Arrecife', 'h70617973': 'Canaries'}, {'h666c696768745f6475726174696f6e': '3h26min', 'h76696c6c65': 'Fuerteventura', 'h70617973': 'Canaries'}, {'h666c696768745f6475726174696f6e': '3h20min', 'h76696c6c65': 'Lanzarote', 'h70617973': 'Canaries'}, {'h666c696768745f6475726174696f6e': '3h33min', 'h76696c6c65': 'Las Palmas', 'h70617973': 'Canaries'}, {'h666c696768745f6475726174696f6e': '3h37min', 'h76696c6c65': 'Ténérife', 'h70617973': 'Canaries'}, {'h666c696768745f6475726174696f6e': '5h19min', 'h76696c6c65': 'Sal', 'h70617973': 'Cap Vert'}, {'h666c696768745f6475726174696f6e': '11h06min', 'h76696c6c65': 'Saint-Denis de la Réunion', 'h70617973': 'La Réunion'}, {'h666c696768745f6475726174696f6e': '10h00', 'h76696c6c65': 'Les Seychelles', 'h70617973': 'Seychelles'}, {'h666c696768745f6475726174696f6e': '5h11min', 'h76696c6c65': 'Dakar', 'h70617973': 'Sénégal'}, {'h666c696768745f6475726174696f6e': '2h5min', 'h76696c6c65': 'Djerba', 'h70617973': 'Tunisie'}, {'h666c696768745f6475726174696f6e': '1h51min', 'h76696c6c65': 'Monastir', 'h70617973': 'Tunisie'}, {'h666c696768745f6475726174696f6e': '2h2min', 'h76696c6c65': 'Tunis', 'h70617973': 'Tunisie'}, {'h666c696768745f6475726174696f6e': '2h55min', 'h76696c6c65': 'Bodrum', 'h70617973': 'Turquie'}, {'h666c696768745f6475726174696f6e': '2h48min', 'h76696c6c65': 'Istanbul', 'h70617973': 'Turquie'}, {'h666c696768745f6475726174696f6e': '2h47min', 'h76696c6c65': 'Izmir', 'h70617973': 'Turquie'}, {'h666c696768745f6475726174696f6e': '1h50min', 'h76696c6c65': 'Berlin', 'h70617973': 'Allemagne'}, {'h666c696768745f6475726174696f6e': '1h19min', 'h76696c6c65': 'Düsseldorf', 'h70617973': 'Allemagne'}, {'h666c696768745f6475726174696f6e': '1h13min', 'h76696c6c65': 'Francfort', 'h70617973': 'Allemagne'}, {'h666c696768745f6475726174696f6e': '1h45min', 'h76696c6c65': 'Hambourg', 'h70617973': 'Allemagne'}, {'h666c696768745f6475726174696f6e': '1h14min', 'h76696c6c65': 'Munich', 'h70617973': 'Allemagne'}, {'h666c696768745f6475726174696f6e': '1h15min', 'h76696c6c65': 'Stuttgart', 'h70617973': 'Allemagne'}, {'h666c696768745f6475726174696f6e': '1h43min', 'h76696c6c65': 'Birmingham', 'h70617973': 'Royaume-Uni'}, {'h666c696768745f6475726174696f6e': '1h37min', 'h76696c6c65': 'Bristol', 'h70617973': 'Royaume-Uni'}, {'h666c696768745f6475726174696f6e': '1h29min', 'h76696c6c65': 'Londres', 'h70617973': 'Royaume-Uni'}, {'h666c696768745f6475726174696f6e': '1h35min', 'h76696c6c65': 'Manchester', 'h70617973': 'Royaume-Uni'}, {'h666c696768745f6475726174696f6e': '2h3min', 'h76696c6c65': 'Southampton', 'h70617973': 'Royaume-Uni'}, {'h666c696768745f6475726174696f6e': '1h45mi",
+          "h6e6174696f6e616c5f6369746965735f31345f746f5f32315b5d": "[]",
+          "h636f756e74726965735b5d": "[{'h666c696768745f6475726174696f6e': '3h25min', 'h76696c6c65': 'Moscou', 'h70617973': 'Russie'}]",
+          "h6e756d6265725f6f665f64657374696e6174696f6e735b5d": "1",
+          "h636f756e747279": "Russie",
+          "h6e6174696f6e616c5f6369746965735f66697273745f375b5d": "[{'h666c696768745f6475726174696f6e': '3h25min', 'h76696c6c65': 'Moscou', 'h70617973': 'Russie'}]",
+          "h6e6174696f6e616c5f6369746965735f375f746f5f31345b5d": "[]",
+          "h6e6174696f6e616c5f6369746965735f61626f76655f32315b5d": "[]",
+          "h6e6174696f6e616c5f6369746965735b5d": "[{'h666c696768745f6475726174696f6e': '3h25min', 'h76696c6c65': 'Moscou', 'h70617973': 'Russie'}]"
+        }
+      }
+    }
+  ]
+]

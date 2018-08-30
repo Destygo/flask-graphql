@@ -1,0 +1,78 @@
+[
+  [
+    "00 - ADL_Destinations_By_Country",
+    {
+      "0": {
+        "context_before_extractions": {
+          "cities_by_country[]": "[{'flight_duration': '1h36min', 'ville': 'Alger', 'pays': 'Algérie'}, {'flight_duration': '1h36min', 'ville': 'Annaba', 'pays': 'Algérie'}, {'flight_duration': '1h45min', 'ville': 'Batna', 'pays': 'Algérie'}, {'flight_duration': '1h50min', 'ville': 'Biskra', 'pays': 'Algérie'}, {'flight_duration': '1h35min', 'ville': 'Béjaïa', 'pays': 'Algérie'}, {'flight_duration': '1h39min', 'ville': 'Constantine', 'pays': 'Algérie'}, {'flight_duration': '1h50min', 'ville': 'Oran', 'pays': 'Algérie'}, {'flight_duration': '1h40min', 'ville': 'Sétif', 'pays': 'Algérie'}, {'flight_duration': '1h58min', 'ville': 'Tlemcen', 'pays': 'Algérie'}, {'flight_duration': '2h55min', 'ville': 'Agadir', 'pays': 'Maroc'}, {'flight_duration': '2h27min', 'ville': 'Casablanca', 'pays': 'Maroc'}, {'flight_duration': '7h25min', 'ville': 'Fès', 'pays': 'Maroc'}, {'flight_duration': '2h41min', 'ville': 'Marrakech', 'pays': 'Maroc'}, {'flight_duration': '2h10min', 'ville': 'Oujda', 'pays': 'Maroc'}, {'flight_duration': '2h5min', 'ville': 'Tetouan', 'pays': 'Maroc'}, {'flight_duration': '3h20min', 'ville': 'Arrecife', 'pays': 'Canaries'}, {'flight_duration': '3h26min', 'ville': 'Fuerteventura', 'pays': 'Canaries'}, {'flight_duration': '3h20min', 'ville': 'Lanzarote', 'pays': 'Canaries'}, {'flight_duration': '3h33min', 'ville': 'Las Palmas', 'pays': 'Canaries'}, {'flight_duration': '3h37min', 'ville': 'Ténérife', 'pays': 'Canaries'}, {'flight_duration': '5h19min', 'ville': 'Sal', 'pays': 'Cap Vert'}, {'flight_duration': '11h06min', 'ville': 'Saint-Denis de la Réunion', 'pays': 'La Réunion'}, {'flight_duration': '10h00', 'ville': 'Les Seychelles', 'pays': 'Seychelles'}, {'flight_duration': '5h11min', 'ville': 'Dakar', 'pays': 'Sénégal'}, {'flight_duration': '2h5min', 'ville': 'Djerba', 'pays': 'Tunisie'}, {'flight_duration': '1h51min', 'ville': 'Monastir', 'pays': 'Tunisie'}, {'flight_duration': '2h2min', 'ville': 'Tunis', 'pays': 'Tunisie'}, {'flight_duration': '2h55min', 'ville': 'Bodrum', 'pays': 'Turquie'}, {'flight_duration': '2h48min', 'ville': 'Istanbul', 'pays': 'Turquie'}, {'flight_duration': '2h47min', 'ville': 'Izmir', 'pays': 'Turquie'}, {'flight_duration': '1h50min', 'ville': 'Berlin', 'pays': 'Allemagne'}, {'flight_duration': '1h19min', 'ville': 'Düsseldorf', 'pays': 'Allemagne'}, {'flight_duration': '1h13min', 'ville': 'Francfort', 'pays': 'Allemagne'}, {'flight_duration': '1h45min', 'ville': 'Hambourg', 'pays': 'Allemagne'}, {'flight_duration': '1h14min', 'ville': 'Munich', 'pays': 'Allemagne'}, {'flight_duration': '1h15min', 'ville': 'Stuttgart', 'pays': 'Allemagne'}, {'flight_duration': '1h43min', 'ville': 'Birmingham', 'pays': 'Royaume-Uni'}, {'flight_duration': '1h37min', 'ville': 'Bristol', 'pays': 'Royaume-Uni'}, {'flight_duration': '1h29min', 'ville': 'Londres', 'pays': 'Royaume-Uni'}, {'flight_duration': '1h35min', 'ville': 'Manchester', 'pays': 'Royaume-Uni'}, {'flight_duration': '2h3min', 'ville': 'Southampton', 'pays': 'Royaume-Uni'}, {'flight_duration': '1h45mi",
+          "country": "Russie"
+        },
+        "inputs": {
+          "country": "Russie"
+        },
+        "outputs": {
+          "countries_14_to_21[]": {
+            "value": "Extraction failed: either result is None or extraction JMESPath query failed",
+            "jinja": "@ | \"countries_14_to_21[]\""
+          },
+          "national_cities_14_to_21[]": {
+            "value": "[]",
+            "jinja": "@ | \"national_cities[]\"[?pays=='Russie'] | [14:21]"
+          },
+          "countries[]": {
+            "value": "[{'flight_duration': '3h25min', 'ville': 'Moscou', 'pays': 'Russie'}]",
+            "jinja": "@ | \"national_cities[]\""
+          },
+          "national_cities_above_21[]": {
+            "value": "[]",
+            "jinja": "@ | \"national_cities[]\"[?pays=='Russie'] | [21:]"
+          },
+          "countries_above_21[]": {
+            "value": "Extraction failed: either result is None or extraction JMESPath query failed",
+            "jinja": "@ | \"countries_above_21[]\""
+          },
+          "countries_7_to_14[]": {
+            "value": "Extraction failed: either result is None or extraction JMESPath query failed",
+            "jinja": "@ | \"countries_7_to_14[]\""
+          },
+          "flight_duration": {
+            "value": "'ville'",
+            "jinja": "'ville'"
+          },
+          "national_cities[]": {
+            "value": "[{'flight_duration': '3h25min', 'ville': 'Moscou', 'pays': 'Russie'}]",
+            "jinja": "@ |\"cities_by_country[]\"[?pays=='Russie']"
+          },
+          "number_of_destinations[]": {
+            "value": "1",
+            "jinja": "length(@ |\"national_cities[]\"[?pays=='Russie'])"
+          },
+          "countries_first_7[]": {
+            "value": "Extraction failed: either result is None or extraction JMESPath query failed",
+            "jinja": "@ | \"national_cities_7[]\""
+          },
+          "national_cities_first_7[]": {
+            "value": "[{'flight_duration': '3h25min', 'ville': 'Moscou', 'pays': 'Russie'}]",
+            "jinja": "@ | \"national_cities[]\"[?pays=='Russie'] | [:7]"
+          },
+          "national_cities_7_to_14[]": {
+            "value": "[]",
+            "jinja": "@ | \"national_cities[]\"[?pays=='Russie'] | [7:14]"
+          }
+        },
+        "title": "ADL_Destinations_By_Country",
+        "context_after_extractions": {
+          "cities_by_country[]": "[{'flight_duration': '1h36min', 'ville': 'Alger', 'pays': 'Algérie'}, {'flight_duration': '1h36min', 'ville': 'Annaba', 'pays': 'Algérie'}, {'flight_duration': '1h45min', 'ville': 'Batna', 'pays': 'Algérie'}, {'flight_duration': '1h50min', 'ville': 'Biskra', 'pays': 'Algérie'}, {'flight_duration': '1h35min', 'ville': 'Béjaïa', 'pays': 'Algérie'}, {'flight_duration': '1h39min', 'ville': 'Constantine', 'pays': 'Algérie'}, {'flight_duration': '1h50min', 'ville': 'Oran', 'pays': 'Algérie'}, {'flight_duration': '1h40min', 'ville': 'Sétif', 'pays': 'Algérie'}, {'flight_duration': '1h58min', 'ville': 'Tlemcen', 'pays': 'Algérie'}, {'flight_duration': '2h55min', 'ville': 'Agadir', 'pays': 'Maroc'}, {'flight_duration': '2h27min', 'ville': 'Casablanca', 'pays': 'Maroc'}, {'flight_duration': '7h25min', 'ville': 'Fès', 'pays': 'Maroc'}, {'flight_duration': '2h41min', 'ville': 'Marrakech', 'pays': 'Maroc'}, {'flight_duration': '2h10min', 'ville': 'Oujda', 'pays': 'Maroc'}, {'flight_duration': '2h5min', 'ville': 'Tetouan', 'pays': 'Maroc'}, {'flight_duration': '3h20min', 'ville': 'Arrecife', 'pays': 'Canaries'}, {'flight_duration': '3h26min', 'ville': 'Fuerteventura', 'pays': 'Canaries'}, {'flight_duration': '3h20min', 'ville': 'Lanzarote', 'pays': 'Canaries'}, {'flight_duration': '3h33min', 'ville': 'Las Palmas', 'pays': 'Canaries'}, {'flight_duration': '3h37min', 'ville': 'Ténérife', 'pays': 'Canaries'}, {'flight_duration': '5h19min', 'ville': 'Sal', 'pays': 'Cap Vert'}, {'flight_duration': '11h06min', 'ville': 'Saint-Denis de la Réunion', 'pays': 'La Réunion'}, {'flight_duration': '10h00', 'ville': 'Les Seychelles', 'pays': 'Seychelles'}, {'flight_duration': '5h11min', 'ville': 'Dakar', 'pays': 'Sénégal'}, {'flight_duration': '2h5min', 'ville': 'Djerba', 'pays': 'Tunisie'}, {'flight_duration': '1h51min', 'ville': 'Monastir', 'pays': 'Tunisie'}, {'flight_duration': '2h2min', 'ville': 'Tunis', 'pays': 'Tunisie'}, {'flight_duration': '2h55min', 'ville': 'Bodrum', 'pays': 'Turquie'}, {'flight_duration': '2h48min', 'ville': 'Istanbul', 'pays': 'Turquie'}, {'flight_duration': '2h47min', 'ville': 'Izmir', 'pays': 'Turquie'}, {'flight_duration': '1h50min', 'ville': 'Berlin', 'pays': 'Allemagne'}, {'flight_duration': '1h19min', 'ville': 'Düsseldorf', 'pays': 'Allemagne'}, {'flight_duration': '1h13min', 'ville': 'Francfort', 'pays': 'Allemagne'}, {'flight_duration': '1h45min', 'ville': 'Hambourg', 'pays': 'Allemagne'}, {'flight_duration': '1h14min', 'ville': 'Munich', 'pays': 'Allemagne'}, {'flight_duration': '1h15min', 'ville': 'Stuttgart', 'pays': 'Allemagne'}, {'flight_duration': '1h43min', 'ville': 'Birmingham', 'pays': 'Royaume-Uni'}, {'flight_duration': '1h37min', 'ville': 'Bristol', 'pays': 'Royaume-Uni'}, {'flight_duration': '1h29min', 'ville': 'Londres', 'pays': 'Royaume-Uni'}, {'flight_duration': '1h35min', 'ville': 'Manchester', 'pays': 'Royaume-Uni'}, {'flight_duration': '2h3min', 'ville': 'Southampton', 'pays': 'Royaume-Uni'}, {'flight_duration': '1h45mi",
+          "national_cities_14_to_21[]": "[]",
+          "countries[]": "[{'flight_duration': '3h25min', 'ville': 'Moscou', 'pays': 'Russie'}]",
+          "number_of_destinations[]": "1",
+          "country": "Russie",
+          "national_cities_first_7[]": "[{'flight_duration': '3h25min', 'ville': 'Moscou', 'pays': 'Russie'}]",
+          "national_cities_7_to_14[]": "[]",
+          "national_cities_above_21[]": "[]",
+          "national_cities[]": "[{'flight_duration': '3h25min', 'ville': 'Moscou', 'pays': 'Russie'}]"
+        }
+      }
+    }
+  ]
+]
